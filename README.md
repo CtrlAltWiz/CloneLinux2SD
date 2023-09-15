@@ -1,5 +1,5 @@
 # CloneLinux2SD
-Easily clone a Linux build to a .img file to be used for backup, Pi deployment, and more!
+Easily clone a Linux build to a .img file for system backup, Pi deployment, and more!
 
 
 Cloning an Image to an SD Card on Ubuntu (x86 & ARM64) 
