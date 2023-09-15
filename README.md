@@ -30,6 +30,7 @@ Step 2: Make the Script Executable
     Navigate to the directory where you saved the script using the cd command, e.g., cd /path/to/script. 
 
     Make the script executable by running the following command: 
+    
     chmod +x CloneLinux2SD.sh 
 
  
@@ -37,6 +38,7 @@ Step 2: Make the Script Executable
 Step 3: Configure the Script 
 
     Open the script file in a text editor using the command: 
+    
     nano CloneLinux2SD.sh 
 
     Inside the script, locate and modify the following variables: 
@@ -52,6 +54,7 @@ Step 3: Configure the Script
 Step 4: Run the Script 
 
     Execute the script with root privileges using the sudo command: 
+    
     sudo ./CloneLinux2SD.sh 
 
  
@@ -69,6 +72,7 @@ Step 6: Safely Eject the SD Card
     After the script completes, it will display a message indicating the cloning process has finished. 
 
     To ensure all data is written to the SD card, run the command: 
+    
     sync 
 
     Safely eject the SD card from your computer using your system's eject or unmount feature. 
@@ -78,8 +82,6 @@ Step 6: Safely Eject the SD Card
 Step 7: Complete 
 
 You have successfully cloned an image to an SD card on your ARM64-based Ubuntu system. The SD card is now ready for use in booting and running your system. 
-
-Shape 
 
 Please note that the script should be used with caution, and you should ensure that you have selected the correct target device (SD card) to avoid data loss. 
 
