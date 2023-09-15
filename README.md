@@ -20,7 +20,7 @@ Before You Begin:
 
 Step 1: Download the Script 
 
-    Ensure you have the CloneLinux2SD.py file downloaded from the Git repo.
+    Ensure you have the CloneLinux2SD.sh file downloaded from the Git repo.
  
 
 Step 2: Make the Script Executable 
