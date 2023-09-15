@@ -30,16 +30,14 @@ Step 2: Make the Script Executable
     Navigate to the directory where you saved the script using the cd command, e.g., cd /path/to/script. 
 
     Make the script executable by running the following command: 
-
-chmod +x CloneLinux2SD.sh 
+    chmod +x CloneLinux2SD.sh 
 
  
 
 Step 3: Configure the Script 
 
     Open the script file in a text editor using the command: 
-
-nano CloneLinux2SD.sh 
+    nano CloneLinux2SD.sh 
 
     Inside the script, locate and modify the following variables: 
 
@@ -54,8 +52,7 @@ nano CloneLinux2SD.sh
 Step 4: Run the Script 
 
     Execute the script with root privileges using the sudo command: 
-
-sudo ./CloneLinux2SD.sh 
+    sudo ./CloneLinux2SD.sh 
 
  
 
@@ -72,8 +69,7 @@ Step 6: Safely Eject the SD Card
     After the script completes, it will display a message indicating the cloning process has finished. 
 
     To ensure all data is written to the SD card, run the command: 
-
-sync 
+    sync 
 
     Safely eject the SD card from your computer using your system's eject or unmount feature. 
 
