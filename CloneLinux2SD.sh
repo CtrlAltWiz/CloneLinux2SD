@@ -3,6 +3,9 @@
 echo "----- CLONE LINUX 2 SD CARD-----"
 echo "by CtrlAltWiz"
 echo "https://github.com/CtrlAltWiz/CloneLinux2SD"
+echo "."
+echo "."
+echo "."
 
 # Check for root privileges
 if [ "$EUID" -ne 0 ]; then
